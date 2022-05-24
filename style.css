@@ -54,3 +54,87 @@ body{
     top: -10px;
     right: 15px;
 }
+.player-score{
+    font-size: 85px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    color: brown;
+}
+.player-current-box{
+    background-color: rgb(173, 12, 12);
+    width: 28%;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+.player-current-label{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #222;
+}
+.player-current-score{
+    font-size: 25px;
+}
+button{
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translate(-50%);
+    color: grey;
+    background: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+}
+button:hover{
+    font-weight: 600;
+}
+button:hover i{
+    margin-right: 15px;
+}
+.btn-new{
+    top: 25px;
+}
+.btn-roll{
+    top: 400px;
+}
+.btn-hold{
+    top: 450px;
+}
+i{
+    margin-right: 7px;
+}
+img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 190px;
+    height: 95px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.winner{
+    background-color: #f7f7f7;
+}
+.winner .player-name {
+    font-weight: 300;
+    color: maroon;
+}
+#winningScore{
+    position: absolute;
+    top: 520px;
+    left: 50%;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    transform: translateX(-50%);
+}
+#winningScore:focus{
+    outline: none;
+}
+
